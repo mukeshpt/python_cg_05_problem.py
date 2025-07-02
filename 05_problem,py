@@ -1,0 +1,12 @@
+''' write a program which find out 
+wheather a given name is present in a list 
+or not'''
+
+l = ["harry", "mukesh", "adii", "ravi", 100]
+name = (input("Enter your name :"))
+
+if(name in l):
+    print("Your name is in the list")
+
+else:
+    print("Your name is not in the lsit")
